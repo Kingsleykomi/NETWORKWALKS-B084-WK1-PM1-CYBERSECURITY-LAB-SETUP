@@ -56,7 +56,7 @@ The laboratory was prepared using Oracle VM VirtualBox and an existing Kali Linu
 
 The virtualization platform provides the ability to operate Kali Linux independently of the host operating system while maintaining a configurable virtual network environment.
 
-![Installation and Setup Files](screenshots/Installation.png)
+![Week 1 - Installation](Installation.png)
 
 ### 4.2 Starting the Kali Linux Virtual Machine
 
@@ -64,7 +64,7 @@ After preparing the required software and virtual machine files, I launched Kali
 
 This provided access to the Linux desktop and terminal required for the networking exercises.
 
-![Kali Linux Running](screenshots/kali_run.png)
+![Week 1 - Kali Environment](kali_run.png)
 
 ### 4.3 Creating the NAT Network
 
@@ -81,7 +81,7 @@ The network was configured with the following parameters:
 
 A NAT Network allows connected virtual machines to communicate through a shared virtual network and access external networks through Network Address Translation.
 
-![NAT Network Configuration](screenshots/NAT%20network.png)
+![Week 1 - Network Adapter](kali_nat.png)
 
 ### 4.4 Connecting Kali Linux to the Virtual Network
 
@@ -89,7 +89,7 @@ The network adapter of the Kali Linux virtual machine was configured to connect 
 
 This establishes the virtual network connection required for communication between the guest operating system and the virtual network.
 
-![Kali Virtual Machine Network Adapter](screenshots/kali_nat.png)
+![Week 1 - NAT Network](NAT%20network.png)
 
 ## 🌐 5. IPv4 Network Configuration
 
@@ -111,7 +111,7 @@ The subnet mask identifies the network and host portions of the IP address, whil
 
 The DNS server is responsible for translating domain names into IP addresses.
 
-![Kali IPv4 Configuration](screenshots/kali_ip.png)
+![Kali IPv4 Configuration](kali_ip.png)
 
 ## 🧪 6. Network Inspection and Connectivity Testing
 
@@ -167,7 +167,7 @@ Checks whether Kali Linux can resolve a domain name and communicate with the des
 
 These tests help distinguish between local network problems, external connectivity problems and DNS resolution failures.
 
-![Internet Connectivity and Network Testing](screenshots/internet-connectivity-test.png)
+![Internet Connectivity and Network Testing](internet-connectivity-test.png)
 
 ## 🔧 7. Network Troubleshooting
 
@@ -206,7 +206,7 @@ This exercise provided practical exposure to NetworkManager and the process of a
 
 **Technical note:** Changing the Duplicate Address Detection timeout is a configuration adjustment, not a general solution for DNS failures. A successful connection activation also does not, by itself, establish that DNS resolution is working.
 
-![Network Troubleshooting Evidence](screenshots/internet-connectivity-test.png)
+![Network Troubleshooting Evidence](internet-connectivity-test.png)
 
 ## 💾 8. Creating a Virtual Machine Snapshot
 
@@ -220,7 +220,7 @@ It provides a recovery point that can be restored if later laboratory activities
 
 This is particularly useful in cybersecurity practice, where different experiments may require changes to operating system settings, network configurations and installed tools.
 
-![Kali Linux VirtualBox Snapshot](screenshots/Kali_Snapshot.png)
+![Kali Linux VirtualBox Snapshot](Kali_Snapshot.png)
 
 ## 💡 9. Knowledge and Skills Developed
 
